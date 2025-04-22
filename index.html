@@ -4,119 +4,57 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Welcome to enckliers.com</title>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
-  <style>
-    body {
-      font-family: 'Roboto', sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f7f7f7;
-      color: #333;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-    }
-    .container {
-      text-align: center;
-      max-width: 1200px;
-      margin: 20px;
-      padding: 40px;
-      background-color: #fff;
-      border-radius: 8px;
-      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-    }
-    h1 {
-      font-size: 2.5rem;
-      color: #2c3e50;
-    }
-    p {
-      font-size: 1.2rem;
-      color: #7f8c8d;
-      margin-bottom: 40px;
-    }
-    .services {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-      gap: 20px;
-    }
-    .service-card {
-      background-color: #ecf0f1;
-      border-radius: 8px;
-      padding: 30px;
-      text-align: center;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
-    }
-    .service-card:hover {
-      transform: translateY(-10px);
-      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-    }
-    .service-card img {
-      max-width: 50px;
-      margin-bottom: 15px;
-    }
-    .service-card a {
-      text-decoration: none;
-      color: #3498db;
-      font-weight: 500;
-      font-size: 1.1rem;
-      transition: color 0.3s ease;
-    }
-    .service-card a:hover {
-      color: #2980b9;
-    }
-    footer {
-      margin-top: 40px;
-      font-size: 0.9rem;
-      color: #95a5a6;
-    }
-  </style>
+  <link rel="stylesheet" href="styles.css">
+  <script src="scripts.js" defer></script>
 </head>
 <body>
   <div class="container">
-    <h1>Welcome to enckliers.com</h1>
-    <p>Your personal hub to access various services</p>
+    <header>
+      <h1>Welcome to enckliers.com</h1>
+      <p>Your personal hub to access various services</p>
+    </header>
 
-    <div class="services">
-      <!-- External Services Links -->
-      <div class="service-card">
-        <img src="https://img.icons8.com/ios/452/emby.png" alt="Emby Icon">
-        <a href="http://emby.enckliers.com" target="_blank">Emby</a>
+    <main>
+      <div class="services">
+        <!-- External Services Links -->
+        <div class="service-card">
+          <img src="https://img.icons8.com/ios/452/emby.png" alt="Emby Icon">
+          <a href="http://emby.enckliers.com" target="_blank">Emby</a>
+        </div>
+        <div class="service-card">
+          <img src="https://img.icons8.com/ios/452/sonarr.png" alt="Sonarr Icon">
+          <a href="http://sonarr.enckliers.com" target="_blank">Sonarr</a>
+        </div>
+        <div class="service-card">
+          <img src="https://img.icons8.com/ios/452/radarr.png" alt="Radarr Icon">
+          <a href="http://radarr.enckliers.com" target="_blank">Radarr</a>
+        </div>
+        <div class="service-card">
+          <img src="https://img.icons8.com/ios/452/pillow.png" alt="Jellyfin Icon">
+          <a href="http://jellyfin.enckliers.com" target="_blank">Jellyfin</a>
+        </div>
+        <div class="service-card">
+          <img src="https://img.icons8.com/ios/452/qbittorrent.png" alt="qBittorrent Icon">
+          <a href="http://qbittorrent.enckliers.com" target="_blank">qBittorrent</a>
+        </div>
+        <div class="service-card">
+          <img src="https://img.icons8.com/ios/452/transmission.png" alt="Transmission Icon">
+          <a href="http://transmission-vpn.enckliers.com" target="_blank">Transmission</a>
+        </div>
+        <div class="service-card">
+          <img src="https://img.icons8.com/ios/452/upsnap.png" alt="UpSnap Icon">
+          <a href="http://upsnap.enckliers.com" target="_blank">UpSnap</a>
+        </div>
+        <div class="service-card">
+          <img src="https://img.icons8.com/ios/452/portainer.png" alt="Portainer Icon">
+          <a href="http://portainer.enckliers.com" target="_blank">Portainer</a>
+        </div>
+        <div class="service-card">
+          <img src="https://img.icons8.com/ios/452/immich.png" alt="Immich Icon">
+          <a href="http://immich.enckliers.com" target="_blank">Immich</a>
+        </div>
       </div>
-      <div class="service-card">
-        <img src="https://img.icons8.com/ios/452/sonarr.png" alt="Sonarr Icon">
-        <a href="http://sonarr.enckliers.com" target="_blank">Sonarr</a>
-      </div>
-      <div class="service-card">
-        <img src="https://img.icons8.com/ios/452/radarr.png" alt="Radarr Icon">
-        <a href="http://radarr.enckliers.com" target="_blank">Radarr</a>
-      </div>
-      <div class="service-card">
-        <img src="https://img.icons8.com/ios/452/pillow.png" alt="Jellyfin Icon">
-        <a href="http://jellyfin.enckliers.com" target="_blank">Jellyfin</a>
-      </div>
-      <div class="service-card">
-        <img src="https://img.icons8.com/ios/452/qbittorrent.png" alt="qBittorrent Icon">
-        <a href="http://qbittorrent.enckliers.com" target="_blank">qBittorrent</a>
-      </div>
-      <div class="service-card">
-        <img src="https://img.icons8.com/ios/452/transmission.png" alt="Transmission Icon">
-        <a href="http://transmission-vpn.enckliers.com" target="_blank">Transmission</a>
-      </div>
-      <div class="service-card">
-        <img src="https://img.icons8.com/ios/452/upsnap.png" alt="UpSnap Icon">
-        <a href="http://upsnap.enckliers.com" target="_blank">UpSnap</a>
-      </div>
-      <div class="service-card">
-        <img src="https://img.icons8.com/ios/452/portainer.png" alt="Portainer Icon">
-        <a href="http://portainer.enckliers.com" target="_blank">Portainer</a>
-      </div>
-      <div class="service-card">
-        <img src="https://img.icons8.com/ios/452/immich.png" alt="Immich Icon">
-        <a href="http://immich.enckliers.com" target="_blank">Immich</a>
-      </div>
-    </div>
+    </main>
 
     <footer>
       <p>&copy; 2025 enckliers.com. All Rights Reserved.</p>
