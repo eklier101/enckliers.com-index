@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Welcome to enckliers.com</title>
   <link rel="stylesheet" href="styles.css" />
+  <script src="scripts.js" defer></script>
 </head>
 <body>
   <div class="container">
@@ -16,103 +17,76 @@
     <main>
       <div class="services">
         <div class="service-card">
-          <img src="https://raw.githubusercontent.com/homarr-labs/dashboard-icons/main/svg/emby.svg" alt="Emby Icon" onerror="this.onerror=null; this.src='fallback-icon.png'">
+          <img src="https://raw.githubusercontent.com/homarr-labs/dashboard-icons/main/svg/emby.svg" alt="Emby Icon" onerror="this.src='fallback-icon.png'" />
           <a href="https://emby.enckliers.com" target="_blank">Emby</a>
         </div>
         <div class="service-card">
-          <img src="https://raw.githubusercontent.com/homarr-labs/dashboard-icons/main/svg/sonarr.svg" alt="Sonarr Icon" onerror="this.onerror=null; this.src='fallback-icon.png'">
+          <img src="https://raw.githubusercontent.com/homarr-labs/dashboard-icons/main/svg/sonarr.svg" alt="Sonarr Icon" onerror="this.src='fallback-icon.png'" />
           <a href="https://sonarr.enckliers.com" target="_blank">Sonarr</a>
         </div>
         <div class="service-card">
-          <img src="https://raw.githubusercontent.com/homarr-labs/dashboard-icons/main/svg/radarr.svg" alt="Radarr Icon" onerror="this.onerror=null; this.src='fallback-icon.png'">
+          <img src="https://raw.githubusercontent.com/homarr-labs/dashboard-icons/main/svg/radarr.svg" alt="Radarr Icon" onerror="this.src='fallback-icon.png'" />
           <a href="https://radarr.enckliers.com" target="_blank">Radarr</a>
         </div>
         <div class="service-card">
-          <img src="https://raw.githubusercontent.com/homarr-labs/dashboard-icons/main/svg/jellyfin.svg" alt="Jellyfin Icon" onerror="this.onerror=null; this.src='fallback-icon.png'">
+          <img src="https://raw.githubusercontent.com/homarr-labs/dashboard-icons/main/svg/jellyfin.svg" alt="Jellyfin Icon" onerror="this.src='fallback-icon.png'" />
           <a href="https://jellyfin.enckliers.com" target="_blank">Jellyfin</a>
         </div>
         <div class="service-card">
-          <img src="https://raw.githubusercontent.com/homarr-labs/dashboard-icons/main/svg/qbittorrent.svg" alt="qBittorrent Icon" onerror="this.onerror=null; this.src='fallback-icon.png'">
+          <img src="https://raw.githubusercontent.com/homarr-labs/dashboard-icons/main/svg/qbittorrent.svg" alt="qBittorrent Icon" onerror="this.src='fallback-icon.png'" />
           <a href="https://qbittorrent.enckliers.com" target="_blank">qBittorrent</a>
         </div>
         <div class="service-card">
-          <img src="https://raw.githubusercontent.com/homarr-labs/dashboard-icons/main/svg/transmission.svg" alt="Transmission Icon" onerror="this.onerror=null; this.src='fallback-icon.png'">
+          <img src="https://raw.githubusercontent.com/homarr-labs/dashboard-icons/main/svg/transmission.svg" alt="Transmission Icon" onerror="this.src='fallback-icon.png'" />
           <a href="https://transmission-vpn.enckliers.com" target="_blank">Transmission</a>
         </div>
         <div class="service-card">
-          <img src="https://raw.githubusercontent.com/homarr-labs/dashboard-icons/main/svg/upsnap.svg" alt="UpSnap Icon" onerror="this.onerror=null; this.src='fallback-icon.png'">
+          <img src="https://raw.githubusercontent.com/homarr-labs/dashboard-icons/main/svg/upsnap.svg" alt="UpSnap Icon" onerror="this.src='fallback-icon.png'" />
           <a href="https://upsnap.enckliers.com" target="_blank">UpSnap</a>
         </div>
         <div class="service-card">
-          <img src="https://raw.githubusercontent.com/homarr-labs/dashboard-icons/main/svg/portainer.svg" alt="Portainer Icon" onerror="this.onerror=null; this.src='fallback-icon.png'">
+          <img src="https://raw.githubusercontent.com/homarr-labs/dashboard-icons/main/svg/portainer.svg" alt="Portainer Icon" onerror="this.src='fallback-icon.png'" />
           <a href="https://portainer.enckliers.com" target="_blank">Portainer</a>
         </div>
         <div class="service-card">
-          <img src="https://raw.githubusercontent.com/homarr-labs/dashboard-icons/main/svg/immich.svg" alt="Immich Icon" onerror="this.onerror=null; this.src='fallback-icon.png'">
+          <img src="https://raw.githubusercontent.com/homarr-labs/dashboard-icons/main/svg/immich.svg" alt="Immich Icon" onerror="this.src='fallback-icon.png'" />
           <a href="https://immich.enckliers.com" target="_blank">Immich</a>
         </div>
       </div>
     </main>
 
-      <footer>
-  <div class="bookmarks">
-    <h3>Bookmarks</h3>
-    
-    <div class="bookmark-group">
-      <h4>Domain</h4>
-      <div class="bookmark-row">
-        <a href="https://tailscale.com" target="_blank" class="bookmark-btn">
-          <img src="https://img.icons8.com/ios-filled/20/tails.png" alt="">Tailscale
-        </a>
-        <a href="https://cloudflare.com" target="_blank" class="bookmark-btn">
-          <img src="https://img.icons8.com/ios-filled/20/cloudflare.png" alt="">Cloudflare
-        </a>
-        <a href="https://namespace.com" target="_blank" class="bookmark-btn">
-          <img src="https://img.icons8.com/ios-filled/20/domain.png" alt="">Namespace
-        </a>
+    <div class="bookmark-groups">
+      <div class="bookmark-group">
+        <h3>Domain</h3>
+        <a class="bookmark-btn" href="https://cloudflare.com" target="_blank"><img src="https://www.google.com/s2/favicons?domain=cloudflare.com" />Cloudflare</a>
+        <a class="bookmark-btn" href="https://tailscale.com" target="_blank"><img src="https://www.google.com/s2/favicons?domain=tailscale.com" />Tailscale</a>
+        <a class="bookmark-btn" href="https://namespace.com" target="_blank"><img src="https://www.google.com/s2/favicons?domain=namespace.com" />Namespace</a>
+      </div>
+      <div class="bookmark-group">
+        <h3>Downloaders</h3>
+        <a class="bookmark-btn" href="https://nzbfinder.ws" target="_blank"><img src="https://www.google.com/s2/favicons?domain=nzbfinder.ws" />NZBFinder</a>
+        <a class="bookmark-btn" href="https://yts.mx" target="_blank"><img src="https://www.google.com/s2/favicons?domain=yts.mx" />YTS</a>
+        <a class="bookmark-btn" href="https://thepiratebay.org" target="_blank"><img src="https://www.google.com/s2/favicons?domain=thepiratebay.org" />Pirate Bay</a>
+        <a class="bookmark-btn" href="https://audiobookbay.fi" target="_blank"><img src="https://www.google.com/s2/favicons?domain=audiobookbay.fi" />Audiobook Finder</a>
+      </div>
+      <div class="bookmark-group">
+        <h3>Misc</h3>
+        <a class="bookmark-btn" href="https://powerschool.com" target="_blank"><img src="https://www.google.com/s2/favicons?domain=powerschool.com" />Powerschool</a>
+        <a class="bookmark-btn" href="https://yarrlist.com" target="_blank"><img src="https://www.google.com/s2/favicons?domain=yarrlist.com" />Yarrlist</a>
       </div>
     </div>
 
-    <div class="bookmark-group">
-      <h4>Downloaders</h4>
-      <div class="bookmark-row">
-        <a href="https://nzbfinder.ws" target="_blank" class="bookmark-btn">
-          <img src="https://img.icons8.com/ios-filled/20/download.png" alt="">NZB Finder
-        </a>
-        <a href="https://yts.mx" target="_blank" class="bookmark-btn">
-          <img src="https://img.icons8.com/ios-filled/20/movie.png" alt="">YTS
-        </a>
-        <a href="https://thepiratebay.org" target="_blank" class="bookmark-btn">
-          <img src="https://img.icons8.com/ios-filled/20/pirate-flag.png" alt="">Pirate Bay
-        </a>
-        <a href="https://audiobookbay.is" target="_blank" class="bookmark-btn">
-          <img src="https://img.icons8.com/ios-filled/20/headphones.png" alt="">Audiobook Finder
-        </a>
-      </div>
+    <div class="theme-switch">
+      <label class="switch">
+        <input type="checkbox" id="darkModeToggle">
+        <span class="slider round"></span>
+        <span class="label-text">Dark Mode</span>
+      </label>
     </div>
 
-    <div class="bookmark-group">
-      <h4>Misc</h4>
-      <div class="bookmark-row">
-        <a href="https://powerschool.com" target="_blank" class="bookmark-btn">
-          <img src="https://img.icons8.com/ios-filled/20/school.png" alt="">PowerSchool
-        </a>
-        <a href="https://yarrlist.com" target="_blank" class="bookmark-btn">
-          <img src="https://img.icons8.com/ios-filled/20/rss.png" alt="">YarrList
-        </a>
-      </div>
-    </div>
+    <footer>
+      <p>&copy; 2025 enckliers.com. All Rights Reserved.</p>
+    </footer>
   </div>
-
-  <p>&copy; 2025 enckliers.com. All Rights Reserved.</p>
-
-  <label class="theme-switch">
-    <input type="checkbox" id="darkModeToggle">
-    <span class="slider"></span> Toggle Dark Mode
-  </label>
-</footer>
-  </div>
-
-  <script src="scripts.js" defer></script>
 </body>
 </html>
