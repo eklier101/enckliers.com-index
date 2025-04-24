@@ -113,19 +113,6 @@
 </footer>
   </div>
 
-  <script>
-    const toggle = document.getElementById("darkModeToggle");
-    toggle.addEventListener("change", () => {
-      document.body.classList.toggle("dark-theme", toggle.checked);
-      localStorage.setItem("darkMode", toggle.checked);
-    });
-
-    // Load saved theme on page load
-    window.addEventListener("DOMContentLoaded", () => {
-      const saved = localStorage.getItem("darkMode") === "true";
-      document.getElementById("darkModeToggle").checked = saved;
-      document.body.classList.toggle("dark-theme", saved);
-    });
-  </script>
+  <script src="scripts.js" defer></script>
 </body>
 </html>
